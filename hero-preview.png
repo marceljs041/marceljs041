@@ -1,0 +1,17 @@
+<svg width="1000" height="320" viewBox="0 0 1000 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Marcel Slowikowski ASCII wordmark</title>
+  <desc id="desc">The name Marcel Slowikowski rendered as centered ASCII art.</desc>
+  <rect width="1000" height="320" fill="#0A0B0B"/>
+  <g fill="#C9FF72" font-family="JetBrains Mono, Consolas, Menlo, monospace" font-size="16" font-weight="700" text-anchor="middle" xml:space="preserve">
+    <text x="500" y="78">#   #   ###   ####    ####  #####  #</text>
+    <text x="500" y="100">## ##  #   #  #   #  #      #      #</text>
+    <text x="500" y="122"># # #  #####  ####   #      ####   #</text>
+    <text x="500" y="144">#   #  #   #  #  #   #      #      #</text>
+    <text x="500" y="166">#   #  #   #  #   #   ####  #####  #####</text>
+    <text x="500" y="208"> ####  #       ###   #   #  #####  #   #   ###   #   #   ####  #   #  #####</text>
+    <text x="500" y="230">#      #      #   #  #   #    #    #  #   #   #  #   #  #      #  #     #</text>
+    <text x="500" y="252"> ###   #      #   #  # # #    #    ###    #   #  # # #   ###   ###      #</text>
+    <text x="500" y="274">    #  #      #   #  ## ##    #    #  #   #   #  ## ##      #  #  #     #</text>
+    <text x="500" y="296">####   #####   ###   #   #  #####  #   #   ###   #   #  ####   #   #  #####</text>
+  </g>
+</svg>
