@@ -78,7 +78,10 @@ PRIVATE LOCAL AI
 | Chapter | What I did |
 |---|---|
 | **Ora Frontier** | Founded the company and lead product, research direction, technical strategy, fundraising, and go-to-market. |
-| **Mueze AI** *(previously PromptShop)* | Helped build AI infrastructure supporting more than **1,300 stores** and **500 agencies**. |
+| **Meuze AI** *(previously PromptShop)* | Helped build AI infrastructure supporting more than **1,300 stores** and **500 agencies**. |
+| **Hollywood (Conductor)** | Fullstack Engineer building out AI systems for video editors workflows. |
+| **Gate3 / Garbur** | Lead Fullstack Engineer building out a property tax platform for Cook County. |
+| **Z3ntra** | Founded the company and helped lead 11+ enterprise contracts across fintech, government contracts, enterprise contracts, and brick and mortar business's. |
 | **Independent engineering** | Built software across AI, web, mobile, cloud infrastructure, developer tools, and interactive systems. |
 | **Iowa State University** | Studying Computer Science while building companies and shipping production systems. |
 
@@ -86,7 +89,7 @@ PRIVATE LOCAL AI
 <summary><b>A path that does not fit neatly into one title</b></summary>
 <br />
 
-Work I began early in my career created opportunities connected to **Blue Origin, Formula 1, Hollywood, and venture-backed AI**. The common thread was never the industry. It was building something difficult enough to get noticed.
+Work I began early in my career created opportunities connected to **Hollywood, Formula 1 and venture-backed AI**. The common thread was never the industry. It was building something difficult enough to get noticed.
 
 </details>
 
@@ -140,22 +143,11 @@ care_about:
 
 ## `github_activity`
 
-<p align="center">
-  <img width="49%" src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Marcel's GitHub statistics" />
-  <img width="49%" src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Marcel's most-used GitHub languages" />
-</p>
-
-<p align="center">
-  <img width="98%" src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="Marcel's GitHub contribution overview" />
-</p>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/marceljs041/marceljs041/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/marceljs041/marceljs041/output/github-contribution-grid-snake.svg" />
   <img alt="Marcel's GitHub contribution snake" src="https://raw.githubusercontent.com/marceljs041/marceljs041/output/github-contribution-grid-snake.svg" />
 </picture>
-
-<sub>The cards above are generated and committed by this repository's GitHub Actions workflow. They do not use the public `github-readme-stats` rendering endpoint.</sub>
 
 ## `connect`
 
