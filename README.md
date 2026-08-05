@@ -1,22 +1,29 @@
-<div align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Marcel Slowikowski — Founder, AI systems builder, and software engineer" />
-</div>
+```text
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│   marcel@ora:~$ whoami                                                       │
+│                                                                              │
+│   MARCEL SLOWIKOWSKI                                                         │
+│   Founder · AI systems builder · software engineer                           │
+│                                                                              │
+│   Democratizing AI, one late night at a time.                                │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
 
 <p align="center">
-  <a href="https://www.orafrontier.com"><img src="https://img.shields.io/badge/Building-Ora%20Frontier-c9ff72?style=for-the-badge&labelColor=0a0b0b" alt="Building Ora Frontier" /></a>
-  <a href="https://marceljs.com"><img src="https://img.shields.io/badge/Portfolio-marceljs.com-b8e7ff?style=for-the-badge&labelColor=0a0b0b" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/marcel-slowikowski/"><img src="https://img.shields.io/badge/LinkedIn-Connect-ffffff?style=for-the-badge&logo=linkedin&logoColor=ffffff&labelColor=0a0b0b" alt="LinkedIn" /></a>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=850&color=C9FF72&center=true&vCenter=true&repeat=true&width=820&height=44&lines=Building+private+AI+for+personal+hardware.;Working+where+AI+research+meets+systems+engineering.;Democratizing+AI%2C+one+late+night+at+a+time." alt="Animated introduction" />
+  <a href="https://www.orafrontier.com">Ora Frontier</a> ·
+  <a href="https://marceljs.com">Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/marcel-slowikowski/">LinkedIn</a>
 </p>
 
 ## `whoami`
 
 I am a founder and engineer working at the boundary of **AI research, low-level runtime systems, and polished software products**.
 
-I started by building across web, mobile, and cloud. Today, I spend most of my time on a harder question: **how do we make capable AI models practical on the hardware people already own?**
+I started by building across web, mobile, and cloud. Today, I spend most of my time on a harder question:
+
+> How do we make capable AI models practical on the hardware people already own?
 
 ```text
 research idea
@@ -29,7 +36,7 @@ research idea
 
 ### [Ora Frontier](https://www.orafrontier.com) · Founder & CEO
 
-Ora Frontier is building private AI software for personal and enterprise hardware. We compile, package, and run supported models through a consistent local execution layer, so prompts, files, and workflows can stay on the user's machine.
+Ora Frontier is building private AI software for personal and enterprise hardware. We compile, package, and run supported models through a consistent local execution layer so prompts, files, and workflows can remain on the user's machine.
 
 ```text
 MODEL CHECKPOINT
@@ -38,40 +45,48 @@ MODEL CHECKPOINT
 ARCHITECTURE ANALYSIS
       │
       ▼
-ORA COMPILER  ── compression · normalization · hardware profiles
+ORA COMPILER
+      │
+      ├── compression
+      ├── architecture normalization
+      └── hardware-aware packaging
       │
       ▼
 PORTABLE MODEL PACK
       │
       ▼
-ORA RUNTIME   ── device-aware execution · local serving
+ORA RUNTIME
+      │
+      ├── device-aware execution
+      ├── local serving
+      └── private inference
       │
       ▼
-PRIVATE LOCAL AI
+AI RUNNING ON PERSONAL HARDWARE
 ```
 
-**What I am focused on right now**
+**Current technical focus**
 
-* Model compression beyond basic quantization
-* Architecture-aware compilation and portable model packs
-* GPU-specific runtime paths across consumer hardware generations
-* Private, local inference without rebuilding dense weights at runtime
-* Turning research-grade systems work into a product that feels simple
+- Model compression beyond basic quantization
+- Architecture-aware compilation and portable model packs
+- GPU-specific runtime paths across consumer hardware generations
+- Private local inference without reconstructing dense weights at runtime
+- Turning research-grade systems work into a product that feels simple
 
 **Product surface**
 
-* **Ora Core** for people running private AI on their own machines
-* **Ora CLI** for developers integrating local models into their workflows
-* **Ora Fleet** for teams managing private AI across multiple systems
+- **Ora Core** for running private AI locally
+- **Ora CLI** for developer workflows and integrations
+- **Ora Fleet** for managing private AI across multiple systems
 
 ## `experience.log`
 
-| Chapter                                | What I did                                                                                                   |
-| -------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| **Ora Frontier**                       | Founded the company and lead product, research direction, technical strategy, fundraising, and go-to-market. |
-| **Mueze AI** *(previously PromptShop)* | Helped build AI infrastructure supporting more than **1,300 stores** and **500 agencies**.                   |
-| **Independent engineering**            | Built software across AI, web, mobile, cloud infrastructure, developer tools, and interactive systems.       |
-| **Iowa State University**              | Studying Computer Science while building companies and shipping production systems.                          |
+| Chapter | Work |
+|---|---|
+| **Ora Frontier** | Founded the company and lead product, research direction, technical strategy, fundraising, and go-to-market. |
+| **Mueze AI** *(previously PromptShop)* | Helped build AI infrastructure supporting more than **1,300 stores** and **500 agencies**. |
+| **Independent engineering** | Built software across AI, web, mobile, cloud infrastructure, developer tools, and interactive systems. |
+| **Iowa State University** | Studying Computer Science while building companies and shipping production systems. |
 
 <details>
 <summary><b>A path that does not fit neatly into one title</b></summary>
@@ -81,27 +96,51 @@ Work I began early in my career created opportunities connected to **Blue Origin
 
 </details>
 
-## `stack --current`
+## `stack --profile`
 
-### AI, systems, and runtime
+The old dynamic language cards were removed because they depended on an external rendering service. This version uses native README text, so it will always render on GitHub.
 
-<p>
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,linux,bash,docker,git&theme=dark" alt="C, C++, Python, Linux, Bash, Docker, and Git" />
-</p>
+```text
+PRIMARY SYSTEMS WORK
+├── C
+├── C++
+├── Python
+├── CUDA / GPU systems
+├── Linux
+├── Bash
+└── Docker
 
-`C` · `C++` · `Python` · `CUDA / GPU systems` · `Linux` · `Bash` · `Docker` · `Git`
+PRODUCT ENGINEERING
+├── TypeScript
+├── JavaScript
+├── React
+├── Next.js
+├── Node.js
+├── Tailwind CSS
+├── PostgreSQL
+└── Figma
 
-### Product engineering
+BROADER EXPERIENCE
+├── Java
+├── C# / .NET
+├── Swift
+├── Kotlin
+├── Flutter
+├── React Native
+├── MongoDB
+├── Firebase
+├── GCP / Azure
+└── Unity
+```
 
-<p>
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,tailwind,postgres,figma&theme=dark" alt="TypeScript, JavaScript, React, Next.js, Node.js, Tailwind CSS, PostgreSQL, and Figma" />
-</p>
+| Area | Languages and tools |
+|---|---|
+| **AI and runtime systems** | C, C++, Python, CUDA, Linux, Bash |
+| **Product engineering** | TypeScript, JavaScript, React, Next.js, Node.js |
+| **Infrastructure and data** | Docker, PostgreSQL, MongoDB, Firebase, GCP, Azure |
+| **Mobile and interactive** | Swift, Kotlin, Flutter, React Native, Unity |
 
-`TypeScript` · `JavaScript` · `React` · `Next.js` · `Node.js` · `Tailwind CSS` · `PostgreSQL` · `Figma`
-
-### Broader experience
-
-`Java` · `C# / .NET` · `Swift` · `Kotlin` · `Flutter` · `React Native` · `MongoDB` · `Firebase` · `GCP` · `Azure` · `Unity`
+> GitHub language percentages often overrepresent generated files, configuration, vendored code, and public repositories. The table above is a more accurate picture of the technologies I actively use.
 
 ## `operating_principles`
 
@@ -121,15 +160,17 @@ care_about:
 
 ## `selected_interests`
 
-* Local and private AI
-* Model compression and efficient inference
-* Compilers, runtimes, and GPU architecture
-* Developer infrastructure
-* Full-stack product systems
-* Human-computer interaction
-* Building companies around difficult technical problems
+- Local and private AI
+- Model compression and efficient inference
+- Compilers, runtimes, and GPU architecture
+- Developer infrastructure
+- Full-stack product systems
+- Human-computer interaction
+- Building companies around difficult technical problems
 
 ## `github_activity`
+
+The contribution animation below is generated inside this repository by GitHub Actions. It does not depend on the removed statistics-card service.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/marceljs041/marceljs041/output/github-contribution-grid-snake-dark.svg" />
@@ -137,24 +178,14 @@ care_about:
   <img alt="Marcel's GitHub contribution snake" src="https://raw.githubusercontent.com/marceljs041/marceljs041/output/github-contribution-grid-snake.svg" />
 </picture>
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=marceljs041&show_icons=true&hide_border=true&bg_color=0a0b0b&title_color=c9ff72&text_color=f4f7f0&icon_color=b8e7ff&ring_color=c9ff72" alt="Marcel's GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marceljs041&layout=compact&hide_border=true&bg_color=0a0b0b&title_color=c9ff72&text_color=f4f7f0" alt="Marcel's most used languages" />
-</div>
-
 ## `connect`
 
 The best conversations usually start with **AI systems, local inference, unusual technical problems, or ambitious products**.
 
-<p>
-  <a href="https://www.orafrontier.com">Ora Frontier</a> ·
-  <a href="https://marceljs.com">Portfolio</a> ·
-  <a href="https://www.linkedin.com/in/marcel-slowikowski/">LinkedIn</a>
-</p>
+- [Ora Frontier](https://www.orafrontier.com)
+- [Portfolio](https://marceljs.com)
+- [LinkedIn](https://www.linkedin.com/in/marcel-slowikowski/)
 
-<div align="center">
-  <br />
-  <strong>Democratizing AI, one late night at a time.</strong>
-  <br /><br />
-  <sub>Build the system. Prove it on real hardware. Make it usable.</sub>
-</div>
+```text
+Build the system. Prove it on real hardware. Make it usable.
+```
